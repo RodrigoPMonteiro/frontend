@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #070000;
+    font: 14px sans-serif;
+    color: rgb(231, 225, 225);
+}
+
+div {
+    
+    margin: 10px;
+    align-content: center;
+}
+
+  div li {
+    display: flex;
+    align-items: center;
+    padding: 25;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #070000 ;
+    text-align: center;
+  }
+
+  button {
+    background: #074215;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 14px;
+   
+  }
+
+  div li span {
+    background-color: #e7e2e2;
+    padding: 10px;
+    width: 15%;
+    align-content: center;
+}
+
+  div li span button {
+    background: #5a0303;
+    align-self: center;
+  }
+
+ 
